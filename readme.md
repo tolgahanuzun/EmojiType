@@ -11,7 +11,10 @@ Emoji Type Style - [Demo](http://tolgahanuzun.com/emoji/index.html)
 ![Kodla Emoji](./img/emoji.png)
 
 ## Todo
-- Büyük küçük harf uyumu sorunu düzeltilecek.
-- Kütüphane genişletilecek.
-- Dil seçeneği eklenecek.
-- Frontend tarafına el atılacak.
+- ~~Büyük küçük harf uyumu sorunu düzeltilecek.~~
+- ~~Kütüphane genişletilecek.~~
+- ~~Dil seçeneği eklenecek.~~
+- ~~Frontend tarafına el atılacak.~~
+
+### Destekçiler
+- Abdullah Uğraşkan - [@apoStyLEE](https://github.com/apoStyLEE) 

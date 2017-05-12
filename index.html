@@ -6,21 +6,44 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="http://cdn.staticfile.org/emoji/0.2.2/emoji.css" rel="stylesheet" type="text/css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/kube/6.5.2/css/kube.min.css" rel="stylesheet" type="text/css">
+        
     </head>
     <body>
         
     <div class="row">
-        <div class="col col-2"></div>
-        <div class="col col-8">
-            <center><h1>Emoji Type Style</h1></center>
-            <textarea id="emoji-type-text"  cols="40" rows="5"></textarea>
-            <center> <button id="btn-replace-emoji">Try it</button> </center>
+        <div class="col col-1"></div>
+
+        <div class="col col-6">
+            <fieldset>
+            <div class="form-item">    
+            <legend><h1>Emoji Type Style</h1></legend>
+            <textarea id="emoji-type-text"  cols="40" rows="5" placeholder="Type Me!"></textarea>
+            </div>
+            
+            <div class="form-item">
+            <button id="btn-replace-emoji">Try me!</button>
+            </div>
+
             <p id="emoji-type-result"></p>
-
+            </fieldset>
         </div>
-        <div class="col col-2"></div>
-    </div>
 
+        <div class="col col-2"></div>
+
+        <div class="col col-2">
+            <fieldset>
+            <h2>Language</h2>
+            <div class="form-item">
+                <select id="emoji-leng" class="small">
+                <option value="tr" selected>Türkçe</option>
+                <option value="eng">English</option>
+                </select>
+            </div>
+            </fieldset>
+        </div>
+    </div>
+    <script id="data-emoji" src="./data/tr.js"></script>
+    <script id="data-emoji" src="./data/eng.js"></script>
     <script src="./emoji.js"></script>
     </body>
 </html>

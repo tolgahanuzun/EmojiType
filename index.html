@@ -1,49 +1,41 @@
 <!DOCTYPE html>
 <html lang="tr">
     <head>
-        <title></title>
+        <title>Emoji Type Style</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="http://cdn.staticfile.org/emoji/0.2.2/emoji.css" rel="stylesheet" type="text/css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/kube/6.5.2/css/kube.min.css" rel="stylesheet" type="text/css">
-        
     </head>
     <body>
-        
-    <div class="row">
-        <div class="col col-1"></div>
-
-        <div class="col col-6">
+        <div class="row align-center">
             <fieldset>
-            <div class="form-item">    
-            <legend><h1>Emoji Type Style</h1></legend>
-            <textarea id="emoji-type-text"  cols="40" rows="5" placeholder="Type Me!"></textarea>
-            </div>
-            
-            <div class="form-item">
-            <button id="btn-replace-emoji">Try me!</button>
-            </div>
-
-            <p id="emoji-type-result"></p>
+                <div class="form-item">    
+                    <legend><h1>Emoji Type Style</h1></legend>
+                    <textarea id="emoji-type-text"  cols="40" rows="5" placeholder="Type Me!"></textarea>
+                </div>
+                <div class="row auto">
+                    <div class="col">
+                        <div class="form-item">
+                            <button id="btn-replace-emoji">Try me!</button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-item">
+                            <select id="emoji-lang">
+                                <option value="tr" selected>Türkçe</option>
+                                <option value="eng">English</option>
+                                <option value="fr">French</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <p id="emoji-type-result"></p>
             </fieldset>
         </div>
-
-        <div class="col col-2"></div>
-
-        <div class="col col-2">
-            <fieldset>
-            <h2>Language</h2>
-            <div class="form-item">
-                <select id="emoji-leng" class="small">
-                <option value="tr" selected>Türkçe</option>
-                <option value="eng">English</option>
-                </select>
-            </div>
-            </fieldset>
-        </div>
-    </div>
+    </body>
     <script id="data-emoji" src="./data/tr.js"></script>
     <script id="data-emoji" src="./data/eng.js"></script>
+    <script id="data-emoji" src="./data/fr.js"></script>    
     <script src="./emoji.js"></script>
-    </body>
 </html>

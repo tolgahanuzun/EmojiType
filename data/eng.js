@@ -6,7 +6,7 @@ var dictionaryEng = {
   'umbrella'    :'emoji1f302',
   'flag'        :'emoji1f3c1',
   'camera'      :'emoji1f4f7',
-  'moon'        :'emoji1f31',
+  'moon'        :'emoji1f314',
   'hour'        :'emoji231a',
   'tulip'       :'emoji1f337',
   'rose'        :'emoji1f339',

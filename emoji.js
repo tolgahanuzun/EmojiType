@@ -6,13 +6,14 @@ var emojiType = {
         var text = this.getElementById("emoji-type-text").value.toLowerCase();
         var options = document.getElementById("emoji-lang").selectedIndex;
         var dictionary = {};
+        var counts = 0;
 
         switch(options) {
             case 0:
-                dictionary = dictionaryTr;
+                dictionary = dictionaryEng;
                 break;
             case 1:
-                dictionary = dictionaryEng;
+                dictionary = dictionaryTr;
                 break;
             case 2:
                 dictionary = dictionaryFr;
@@ -20,7 +21,11 @@ var emojiType = {
         }
 
         for (var key in dictionary) {
-            text = text.replace(key, "<span class='emoji " + dictionary[key]  + "'></span>");
+            counts = text.split(key);
+
+            for (count in counts){
+                text = text.replace(key, "<span class='emoji " + dictionary[key]  + "'></span>");
+            }
         }
 
         this.getElementById("emoji-type-result").innerHTML = "<fieldset><legend>Result</legend>" + text + "</fieldset>";

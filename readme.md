@@ -1,20 +1,24 @@
 # Emoji Type Style
 
-- Girilen metni emojiler cinsinden ifade etmek için yaratıldı. 
-- Emojiler, *node-modules/emoji* reposu üzerinden çekiliyor ve metin içerisinde replace işlemi yapıyor.
-- CSS frameworku olarak Kube kullanıldı ve CDN üzerinden çekildi.
+The writing helps to express as emoji. It was created to create short, funny scripts.
 
 Emoji Type Style - [Demo](http://tolgahanuzun.com/emoji/index.html)
 
-## Ekran Görüntüsü
+### Used in the project
+- Emoji packages *node-modules/emoji* 
+- Kube was used as the CSS framework and it was pulled over CDN.
 
-![Kodla Emoji](./img/emoji.png)
+
+## Screenshot
+
+![Emoji](./img/emoji.png)
 
 ## Todo
-- ~~Büyük küçük harf uyumu sorunu düzeltilecek.~~
-- ~~Kütüphane genişletilecek.~~
-- ~~Dil seçeneği eklenecek.~~
-- ~~Frontend tarafına el atılacak.~~
+- ~~Solved upper-lower case letters problem.~~
+- ~~New Data added~~
+- ~~Language options added.~~
 
-### Destekçiler
+### Contributers
+- Tolgahan Üzün - [@tolgahanuzun](https://github.com/tolgahanuzun) 
 - Abdullah Uğraşkan - [@apoStyLEE](https://github.com/apoStyLEE) 
+- Anıl İyidoğan - [@aniliyidogan](https://github.com/aniliyidogan) 
